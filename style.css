@@ -1,0 +1,171 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgba(1, 1, 43, 0.83);
+    width: 14vw;
+    height: 100vh;
+    font-size: 48px;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.sidebar nav{
+    padding: 22px;
+    
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    color: white;
+    padding: 33px 0;
+    font-family:"Merriweather", serif;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar nav li a:hover{
+    cursor: pointer;
+}
+.main{
+    background-color: white;
+    width: 95vw;
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    background-color: white;
+    height:45vh;
+    width: 79vw;
+    margin:  144px auto;
+    justify-content: space-around;
+    display: flex;
+}
+.devpic img{
+    width: 270px;
+    height: 45vh;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Hello{
+    font-size: 55px;
+}
+.name{
+    font-size: 45px;
+    font-weight: bold;
+}
+.about{
+    font-size: 35px;
+    font-family: "Source Code Pro", monospace;
+}.more{
+    padding-top: 10px;
+    font-size: 24px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+  padding: 7px;
+  border-radius: 13px;  
+  color: white;
+  background-color: darkblue;
+  font-weight: bold;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.buttons button:hover{
+    background-color:aliceblue;
+    color: black;
+}.contact{
+    background-color: grey;
+    width: 95vw;
+}
+.contactcontainer{
+    background-color: rgb(1, 1, 40);
+    height:45vh;
+    width: 79vw;
+    margin:  144px auto;
+    justify-content: space-around;
+    display: flex;
+}
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactme{
+    margin-bottom:42px;
+    font-size: 76px;
+    color: white;
+}
+.Email{
+    margin-top: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.github{
+    margin-top: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.mobileno{
+    margin-top: 10px;
+    font-size: 40px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.Experience{
+    width: 95vw;
+    margin:200px auto;
+    height: 10vh;
+}
+.skillscontainer{
+    background-color: rgb(1, 1, 40);
+    height:20vh;
+    width: 80vw;
+    margin:  -168px auto;
+    justify-content:center;
+    display: flex;
+    color: whitesmoke;
+    font-size: 102px;
+}
+.skillsinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.skill1{
+    cursor: pointer;
+    margin-top:10px;
+    font-size: 40px;
+    color: black;
+}
+.skill2{
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+.skill3{
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+.skill4{
+    margin-top: 10px;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}

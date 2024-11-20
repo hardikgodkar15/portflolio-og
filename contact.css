@@ -1,0 +1,17 @@
+.contact{
+    width: 95vw;
+    background-color: grey;
+}
+.contactcontainer{
+    background-color: white;
+    height:45vh;
+    width: 79vw;
+    margin:144px auto;
+    justify-content: center;
+    display: flex;
+}
+.contactinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
